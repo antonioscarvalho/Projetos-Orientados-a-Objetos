@@ -1,24 +1,26 @@
+from math import sqrt
 class Circulo:
-    def __init__(self, centro, raio, PontoDeTeste):
+    def __init__(self, centro, raio, ax, ay, ca, cb):
         self.c = centro
         self.Raio = raio
-        self.t1 = PontoDeTeste
+        self.ax = ax
+        self.ay = ay
+        self.ca = ca
+        self.cb = cb
     
     def TesteDoRaio(self):
-        Dx = self.t1[0] - self.PontoDeTeste[0]
-        Dy = self.t1[1] - self.PontoDeTeste[1]
-        distancia = ((Dx)**2 + (Dy)**2)**(1/2)
+        distancia = sqrt((self.ax - self.ay)**2 + (self.ca - self.cb)**2)
+        print(f'Distância: raíz de {self.ax - self.ay}² + {self.ca - self.cb}² = {distancia}')
 
         if distancia > self.Raio:
-            return ("O ponto está fora do círculo")
-        
+            print("O ponto está fora do círculo")
         else:
             if distancia == self.Raio:
-                return ("O ponto está em cima da circunferência do círculo")
+                print("O ponto está em cima da circunferência do círculo")
             else:
                 if distancia < self.Raio:
-                    return ("O ponto está dentro do círculo")
-    
+                    print("O ponto está dentro do círculo")
+
     def Area(self):
         pi = 3.14159265
         area = pi * (self.Raio)**2
