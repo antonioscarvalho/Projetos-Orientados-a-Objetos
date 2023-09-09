@@ -9,10 +9,12 @@ print(f'''
 {l1}
 ''')
 l1.Perimetro()
-print(f'''{l1}
+print(f'''
+{l1}
 ''')
 l1.Diagonal()
-print(f'''{l1}
+print(f'''
+{l1}
 ''')
 
 from reta import Reta
@@ -29,5 +31,15 @@ print(f'''
 {r1}
 ''')
 r1.EquacaodaReta()
-print(f'''{r1}
+print(f'''
+{r1}
 ''')
+
+from circulo import Circulo
+
+# O init está na respectiva ordem: centro, raio, PontoDeTeste.
+
+c1 = Circulo(1, 5, 3)
+
+c1.Area()
+print(c1)
