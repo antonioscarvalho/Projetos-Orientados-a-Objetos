@@ -25,3 +25,4 @@ class Circulo:
         pi = 3.14159265
         area = pi * (self.Raio)**2
         print(f'Área: π x r² = {pi} x {self.Raio}² = {area}.')
+        
