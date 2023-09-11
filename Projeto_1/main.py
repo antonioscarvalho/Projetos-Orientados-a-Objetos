@@ -54,3 +54,22 @@ c1.TesteDoRaio()
 print(f'''
 {c1}
 ''')
+
+from triangulo import Triangulo
+
+#O init está na respectiva ordem: ax, ay, bx, by, cx, cy. 
+
+x = []
+for c in range(0, 6):
+    p = int(input('Digite um número que complete as coordenadas A(x, y), B(x, y) e C(x, y): '))
+    x.append(p)
+
+t1 = Triangulo(x[0], x[1], x[2], x[3], x[4], x[5])
+
+t1.LadosDoTriangulo()
+print(f'''{t1}
+''')
+
+t1.Area()
+print(f'''{t1}
+''')

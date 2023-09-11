@@ -13,7 +13,7 @@ class Reta:
             CoAng = (self.by - self.ay)/(self.bx - self.ax)
             CoLin = self.ay - CoAng * self.ax 
             EqdaReta = f"{CoAng} x X + {CoLin}"
-            print(f'O coeficiente angular vale {CoAng:.2f}, o coeficiente linear vale {CoLin:.2f} e a equação da reta ficou caracterizada como {EqdaReta:.2f}.')
+            print(f'O coeficiente angular vale {CoAng:.2f}, o coeficiente linear vale {CoLin:.2f} e a equação da reta ficou caracterizada como {EqdaReta}.')
     
     def Distancia(self):
         distanc = sqrt((self.bx - self.ax)**2 + (self.by - self.ay)**2)

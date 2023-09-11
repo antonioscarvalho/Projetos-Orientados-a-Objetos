@@ -1,8 +1,8 @@
 from math import sqrt
 class Circulo:
-    def __init__(self, centro, raio, ax, ay, ca, cb):
+    def __init__(self, centro, Raio, ax, ay, ca, cb):
         self.c = centro
-        self.Raio = raio
+        self.Raio = Raio
         self.ax = ax
         self.ay = ay
         self.ca = ca

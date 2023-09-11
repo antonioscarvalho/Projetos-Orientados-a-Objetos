@@ -12,7 +12,6 @@ class Triangulo:
         lado1 = sqrt((self.ax - self.bx)**2 + (self.ay - self.by)**2)
         lado2 = sqrt((self.bx - self.cx)**2 + (self.by - self.cy)**2)
         lado3 = sqrt((self.cx - self.ax)**2 + (self.cy - self.ay)**2)
-        l = [lado1, lado2, lado3]
         print(f'''
         Distancia do primeiro ponto até o segundo = {lado1}
         Distancia do segundo ponto até o terceiro = {lado2}
@@ -35,8 +34,8 @@ class Triangulo:
             print('E esse triângulo é isóceles.')
             maior = []
             maior.append(max(l))
-            h = sqrt(lado1**2 + (maior/2)**2)
-            area = (maior * h)/2
+            h = sqrt(lado1**2 + (maior[0]/2)**2)
+            area = (maior[0] * h)/2
             print(f'Área do triângulo isóceles: {area}')
 
         elif lado1 != lado2 != lado3:
