@@ -28,38 +28,31 @@ Elas conseguem formar um triâgulo.
                   ''')
 
         if lado1 == lado2 == lado3:
-            print('''
-E esse triângulo é equilatero.
+            print('''E esse triângulo é equilatero.
                   ''')
             area = ((lado1)**2)*(sqrt(3))/4
-            print(f'''
-Área do triângulo equilatero: {area}
+            print(f'''Área do triângulo equilatero: {area}
 ''')
 
         elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
-            print('''
-E esse triângulo é isóceles.
+            print('''E esse triângulo é isóceles.
                   ''')
             maior = []
             maior.append(max(l))
             h = sqrt(lado1**2 + (maior[0]/2)**2)
             area = (maior[0] * h)/2
-            print(f'''
-Área do triângulo isóceles: {area}
+            print(f'''Área do triângulo isóceles: {area}
 ''')
 
         elif lado1 != lado2 != lado3:
-            print('''
-E esse triângulo é escaleno.
+            print('''E esse triângulo é escaleno.
                   ''')
             #Fórmula de Heron para calcular a área do triângulo escaleno.
             semiperimetro = (lado1 + lado2 + lado3)/2
             area = sqrt(semiperimetro*(semiperimetro - lado1)*(semiperimetro-lado2)*(semiperimetro-lado3))
-            print(f'''
-Área do triângulo escaleno: {area}
+            print(f'''Área do triângulo escaleno: {area}
                   ''')
 
         else:
-            print('''
-Não conseguem formar um triângulo.
+            print('''Não conseguem formar um triângulo.
                   ''')

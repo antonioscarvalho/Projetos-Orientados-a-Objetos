@@ -15,13 +15,11 @@ A equação da reta não pode ser feita, pois o Coeficiente Angular não pode se
             CoAng = (self.by - self.ay)/(self.bx - self.ax)
             CoLin = self.ay - CoAng * self.ax 
             EqdaReta = f"{CoAng} x X + {CoLin}"
-            print(f'''
-O coeficiente angular vale {CoAng:.2f}, o coeficiente linear vale {CoLin:.2f} e a equação da reta ficou caracterizada como {EqdaReta}.
+            print(f'''O coeficiente angular vale {CoAng:.2f}, o coeficiente linear vale {CoLin:.2f} e a equação da reta ficou caracterizada como {EqdaReta}.
             ''')
     
     def Distancia(self):
         distanc = sqrt((self.bx - self.ax)**2 + (self.by - self.ay)**2)
-        print(f'''
-A distância da reta é de aproximadamente {distanc:.1f}.
+        print(f'''A distância da reta é de aproximadamente {distanc:.1f}.
               ''')
         
