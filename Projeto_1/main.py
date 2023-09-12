@@ -6,15 +6,8 @@ for c in range(0, 4):
     l.append(p)
 
 r1 = Reta(l[0], l[1], l[2], l[3])
-
 r1.Distancia()
-print(f'''
-{r1}
-''')
 r1.EquacaodaReta()
-print(f'''
-{r1}
-''')
 
 from quadrado import Quadrado
 
@@ -23,17 +16,8 @@ lado = int(input('Qual o lado do quadrado? '))
 l1 = Quadrado(lado)
 
 l1.Area()
-print(f'''
-{l1}
-''')
 l1.Perimetro()
-print(f'''
-{l1}
-''')
 l1.Diagonal()
-print(f'''
-{l1}
-''')
 
 from circulo import Circulo
 
@@ -47,13 +31,7 @@ for c in range(0, 4):
 c1 = Circulo(1, 5, x[0], x[1], x[2], x[3])
 
 c1.Area()
-print(f'''{c1}
-''')
-
 c1.TesteDoRaio()
-print(f'''
-{c1}
-''')
 
 from triangulo import Triangulo
 
@@ -67,9 +45,4 @@ for c in range(0, 6):
 t1 = Triangulo(x[0], x[1], x[2], x[3], x[4], x[5])
 
 t1.LadosDoTriangulo()
-print(f'''{t1}
-''')
-
 t1.Area()
-print(f'''{t1}
-''')
