@@ -31,22 +31,13 @@ l1.Diagonal()
 
 from circulo import Circulo
 
-#O init está na respectiva ordem: centro, raio, ax, ay, ca, cb. Sendo esses últimos quatro os pontos de coordenadas para descobrir distância.
-
-x = []
-for c in range(0, 4):
-    p = int(input('Digite um número que complete as coordenadas A(x, y) e C(a, b): '))
-    x.append(p)
-
-c1 = Circulo(1, 5, x[0], x[1], x[2], x[3])
-
+c1 = Circulo(5, 0, 0)
+c1.TesteDoRaio(3, 4)
 c1.Area()
-c1.TesteDoRaio()
 
 from triangulo import Triangulo
 
 #O init está na respectiva ordem: ax, ay, bx, by, cx, cy. 
-
 x = []
 for c in range(0, 6):
     p = int(input('Digite um número que complete as coordenadas A(x, y), B(x, y) e C(x, y): '))
@@ -59,8 +50,9 @@ t1.Area()
 
 from retangulo import Retangulo
 
-h1 = int(input('Qual a altura do Retângulo? '))
-rg = Retangulo(b1, h1)
+b2 = int(input('Qual a base do Retângulo? '))
+h2 = int(input('Qual a altura do Retângulo? '))
+rg = Retangulo(b2, h2)
 
 rg.Area()
 rg.Diagonal()

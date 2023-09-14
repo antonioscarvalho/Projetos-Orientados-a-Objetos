@@ -1,34 +1,23 @@
-from math import sqrt
+from math import sqrt, pi
+
 class Circulo:
-    def __init__(self, raio, centro, ax, ay, ca, cb):
-        self.centro = centro
-        self.Raio = raio
-        self.ax = ax
-        self.ay = ay
-        self.ca = ca
-        self.cb = cb
+    def __init__(self, raio, centro_x, centro_y):
+        self.centro_x = centro_x
+        self.centro_y = centro_y
+        self.raio = raio
 
-    def TesteDoRaio(self):
-        distancia = sqrt((self.ax - self.ay)**2 + (self.ca - self.cb)**2)
-        print(f'''
-Distância: raíz de {self.ax - self.ay}² + {self.ca - self.cb}² = {distancia}.
-''')
+    def TesteDoRaio(self, ponto_x, ponto_y):
+        distancia = sqrt((ponto_x - self.centro_x)**2 + (ponto_y - self.centro_y)**2)
 
-        if distancia > self.Raio:
-            print('''O ponto está fora do círculo.
-                  ''')
+        if distancia > self.raio:
+            print("O ponto está fora do círculo.")
+        elif distancia == self.raio:
+            print("O ponto está em cima da circunferência do círculo.")
         else:
-            if distancia == self.Raio:
-                print('''O ponto está em cima da circunferência do círculo.
-                      ''')
-            else:
-                if distancia < self.Raio:
-                    print('''O ponto está dentro do círculo.
-                          ''')
+            print("O ponto está dentro do círculo.")
 
     def Area(self):
-        pi = 3.14159265
-        area = pi * (self.Raio)**2
-        print(f'''Área: π x r² = {pi} x {self.Raio}² = {area}.
-              ''')
+        area = pi * (self.raio**2)
+        print(f"Área: π x r² = {pi} x {self.raio}² = {area}.")
+
         

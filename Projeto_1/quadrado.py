@@ -1,8 +1,7 @@
 from math import sqrt
 class Quadrado:
-    def __init__(self, b, h):
+    def __init__(self, b):
         self.lado1 = b
-        self.lado2 = h
     
     def Area(self):
         area = (self.lado1)**2
