@@ -1,3 +1,13 @@
+from ponto import Ponto
+
+l = []
+for c in range(0, 2):
+    p = int(input('Digite um número que complete as coordenadas X e Y do ponto: '))
+    l.append(p)
+
+p1 = Ponto(l[0], l[1])
+p1.Coordenadas()
+
 from reta import Reta
 
 l = []
@@ -11,9 +21,9 @@ r1.EquacaodaReta()
 
 from quadrado import Quadrado
 
-lado = int(input('Qual o lado do quadrado? '))
+b1 = int(input('Qual a base do quadrado? '))
 
-l1 = Quadrado(lado)
+l1 = Quadrado(b1)
 
 l1.Area()
 l1.Perimetro()
@@ -46,3 +56,11 @@ t1 = Triangulo(x[0], x[1], x[2], x[3], x[4], x[5])
 
 t1.LadosDoTriangulo()
 t1.Area()
+
+from retangulo import Retangulo
+
+h1 = int(input('Qual a altura do Retângulo? '))
+rg = Retangulo(b1, h1)
+
+rg.Area()
+rg.Diagonal()
