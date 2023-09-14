@@ -11,8 +11,8 @@ class Quadrado:
         return
     
     def Diagonal(self):
-        diagonal = sqrt(((self.lado1)**2)+(self.lado1)**2)
-        print(f'''Diagonal: raíz de {self.lado1}² + {self.lado1}² = {diagonal:.2f}.
+        diagonal = sqrt(2)*self.lado1
+        print(f'''Diagonal: raíz de 2 * lado = raíz de 2 * {self.lado1} = {diagonal:.2f}.
               ''')
         return
     
