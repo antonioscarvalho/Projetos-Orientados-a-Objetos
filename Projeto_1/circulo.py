@@ -1,13 +1,13 @@
 from math import sqrt
 class Circulo:
-    def __init__(self, centro, Raio, ax, ay, ca, cb):
-        self.c = centro
-        self.Raio = Raio
+    def __init__(self, raio, centro, ax, ay, ca, cb):
+        self.centro = centro
+        self.Raio = raio
         self.ax = ax
         self.ay = ay
         self.ca = ca
         self.cb = cb
-    
+
     def TesteDoRaio(self):
         distancia = sqrt((self.ax - self.ay)**2 + (self.ca - self.cb)**2)
         print(f'''
