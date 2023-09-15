@@ -15,3 +15,4 @@ class Retangulo:
         print(f'''Diagonal: raíz de {self.base}² + {self.altura}² = {diagonal:.2f}.
               ''')
         return
+    

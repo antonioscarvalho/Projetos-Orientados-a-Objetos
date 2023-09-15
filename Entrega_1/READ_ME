@@ -1,4 +1,5 @@
 Este Pseudocódigo possui as seguintes classes: Ponto, Reta, Circulo, Quadrado, Retangulo e Triangulo.
 Cada uma tem seu devido funcionamento a partir de funções como Coordenadas, Area, Distancia, Diagonal, Perimetro e outras.
 No pseudocódigo existem atividades envolvendo estruturas lógicas de programação como as de condição e repetição.
+Houve a aplicação do mecanismo o qual facilita a laboração de uma classe, a Herança, utilizada para o Quadrado ser como uma classe derivada do Retângulo em algumas funcionalidades.
 Há também operações com bibliotecas de matemática utilizando, por exemplo, a raíz quadrada.

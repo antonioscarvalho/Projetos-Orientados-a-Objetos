@@ -24,20 +24,21 @@
                                 retorne distancia
 
 
-                classe Quadrado:
+                classe Quadrado(Retangulo):
                         função Parâmetros(molde, b):
-                                molde.lado1 = b
+                                super().Parâmetros(molde, b)
+                                molde.base = b
                         função Area(molde):
-                                area = (molde.lado1)**2
-                                mostre(formatado’Área: {molde.lado1}² = {area}.’)
+                                area = molde.base*molde.base
+                                mostre(formatado’Área: {molde.base}² = {area}.’)
                                 retorne
                         função Diagonal(molde):
-                                diagonal = raíz quadrada(((molde.lado1)**2)+(molde.lado1)**2)
-                                mostre(formatado’Diagonal: raíz de 2 * lado = raíz de 2 * {molde.lado1} = {diagonal:.2flutuadores}.’)
+                                diagonal = raíz quadrada(((molde.base)**2)+(molde.base)**2)
+                                mostre(formatado’Diagonal: raíz de 2 * lado = raíz de 2 * {molde.base} = {diagonal:.2flutuantes}.’)
                                 retorne
                         função Perimetro(molde):
-                                perimet = 4*(molde.lado1)
-                                print(f'Perímetro: 4 x {molde.lado1} = {perimet}.')
+                                perimet = 4*(molde.base)
+                                print(f'Perímetro: 4 x {molde.base} = {perimet}.')
 
 
                 classe Circulo:
@@ -93,9 +94,9 @@
                                         mostre(formatado'Área do triângulo isóceles: {area}')
                                 senão se lado1 diferente de lado2 diferente de lado3:
                                         mostre('E esse triângulo é escaleno.')
-#Fórmula de Heron para calcular a área do triângulo escaleno.
+                                        #Fórmula de Heron para calcular a área do triângulo escaleno.
                                         semiperimetro = (lado1 + lado2 + lado3)/2
-                                        area = raíz quadrada((semiperimetro*(semiperimetro - lado1)*(semiperimetro-lado2)*(semiperimetro-lado3))
+                                        area = raíz quadrada(semiperimetro*(semiperimetro - lado1)*(semiperimetro-lado2)*(semiperimetro-lado3))
                                         mostre(formatado'Área do triângulo escaleno: {area}')
                                 senão:
                                         mostre('Não conseguem formar um triângulo.')
@@ -114,7 +115,7 @@
 
         de quadrado, importe Quadrado
 
-
+        #Diferentemente do retângulo, o quadrado não tem base e altura diferentes. Portanto, basta saber um dos dados para aplicar as funções.
         lado = inteiro(entrada('Qual o lado do quadrado? '))
         l1 = Quadrado(lado)
         l1.Area()
