@@ -1,0 +1,5 @@
+Este mini-projeto possui 6 arquivos ".py" na pasta "shapes" com as respectivas classes: Ponto, Reta, Circulo, Quadrado, Retangulo e Triangulo.
+Cada uma dessas classes dentro dos arquivos tem seu devido funcionamento a partir de funções essenciais como Coordenadas, Area, Distancia, Diagonal, Perimetro e outras.
+No arquivo chamado "testbench_1", usam-se os objetos das classes declaradas em "shapes" para o usuário interagir escrevendo nas entradas de dados (input) números específicos que representam coordenadas, base ou a altura das formas geométricas, por exemplo.
+Houve a aplicação de um dos pilares da Programação Orientada a Objetos a qual facilita a laboração de uma classe, a Herança, utilizada para o Quadrado ser como uma classe derivada do Retângulo em algumas funcionalidades.
+Há também operações com bibliotecas de matemática utilizando, por exemplo, a raíz quadrada e o número Pi.
