@@ -2,15 +2,15 @@ Jogo da Velha: Xtreme
 
 Projeto com implementação de UMLs:
 
-Neste mini-projeto 3, há a aplicação de diagramas UML para uma elaboração facilitada do "Jogo da Velha: Xtreme", quando for feito através da linguagem Python, com os recursos da Programação Orientada a Objetos.
+  Neste mini-projeto 3, há a aplicação de diagramas UML para uma elaboração facilitada do "Jogo da Velha: Xtreme", quando for feito através da linguagem Python, com os recursos da Programação Orientada a Objetos.
 Para o jogo funcionar, é preciso que o usuário dê informações pessoais e o inicie, quando jogar, terão os espaços na grade 3x3 para escolher e criar estratégias contra seu adversário, a Inteligência Artificial "Xtreme".
 
 Lista de Substantivos e Verbos:
 
-A lista foi dividida com duas tabelas de Substantivos e Verbos na 1° coluna e suas respectivas propostas na 2° coluna.
+  A lista foi dividida com duas tabelas de Substantivos e Verbos na 1° coluna e suas respectivas propostas na 2° coluna.
 
 UML:
 
-A primeira UML foi realizada com o intuito da visualização e demontração de como serão feitas as classes do projeto, portanto é um diagrama de classes.
-A segunda UML foi feita para elucidar as aplicações e propostas das ferramentas criadas para a funcionalidade do jogo sendo, então, feita com um diagrama de casos de uso. 
-A terceira UML foi feita 
+  A primeira UML foi realizada com o intuito da visualização e demontração de como serão feitas as classes do projeto, portanto é um diagrama de classes.
+  A segunda UML foi feita para elucidar as aplicações e propostas das ferramentas criadas para a funcionalidade do jogo sendo, então, feita com um diagrama de casos de uso. 
+  A terceira UML foi feita 
