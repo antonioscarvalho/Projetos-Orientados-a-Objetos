@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T21:17:12.461Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Ln6DGNinHo0rALNaD0e4" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T21:21:20.517Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="G_-mAlBhvU6GQDWT0Yjo" version="22.0.8" type="github">
   <diagram name="Página-1" id="ETZNSiQvTZ4J-55iKF7z">
     <mxGraphModel dx="1098" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,18 @@
             <mxPoint x="296" y="510" as="sourcePoint" />
             <mxPoint x="430" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-10" value="Jogador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-11" value="simbolo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aqnIn2phBkBqxdztw7Cu-10">
+          <mxGeometry y="26" width="140" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-18" value="Jogo_da_Velha" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="75" width="176" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-20" value="+ introducaoJogo: String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ tabuleiro: String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ ganhador: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aqnIn2phBkBqxdztw7Cu-18">
+          <mxGeometry y="26" width="176" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
