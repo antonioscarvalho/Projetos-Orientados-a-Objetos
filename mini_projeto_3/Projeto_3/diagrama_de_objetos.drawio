@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T21:22:35.383Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="x87mk_3t0BBywlviBtB4" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T21:27:27.976Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RiLAlo1R9MBx8T7Yf2BA" version="22.0.8" type="github">
   <diagram name="Página-1" id="ETZNSiQvTZ4J-55iKF7z">
     <mxGraphModel dx="1098" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aqnIn2phBkBqxdztw7Cu-10" value="Jogador" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="90" width="140" height="60" as="geometry" />
+          <mxGeometry x="70" y="90" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aqnIn2phBkBqxdztw7Cu-11" value="simbolo: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aqnIn2phBkBqxdztw7Cu-10">
           <mxGeometry y="26" width="140" height="34" as="geometry" />
@@ -39,6 +39,24 @@
             <mxPoint x="250" y="120" as="sourcePoint" />
             <mxPoint x="300" y="70" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-26" value="DataBase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="85" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-27" value="preservaDados: Dictionary" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aqnIn2phBkBqxdztw7Cu-26">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.002;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.989;exitY=0.297;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aqnIn2phBkBqxdztw7Cu-20" target="aqnIn2phBkBqxdztw7Cu-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="124" as="sourcePoint" />
+            <mxPoint x="590" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-32" value="joga" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aqnIn2phBkBqxdztw7Cu-33" value="salva progresso" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="80" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
