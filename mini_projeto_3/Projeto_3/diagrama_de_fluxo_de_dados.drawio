@@ -1,96 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T15:16:59.796Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="L-kJdp64zuY78c_63DLd" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T18:50:31.700Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="617aPYcOBXCxcS_Zu4ev" version="22.0.8" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1292" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1098" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-1" target="KI8eAFuQ6pck6i7ZXcoC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="90" y="241.25" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-2" value="Tabuleiro vazio, o usuário e a Inteligência Artificial (IA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-2" value="Tabuleiro vazio, o usuário e a Inteligência Artificial (IA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="95" y="268.75" width="160" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="270" y="361.25" width="240" height="107.5" as="geometry" />
-        </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-5" value="O usuário e a IA fazem suas. O sistema continua verificando se a jogada é válida (se a posição está vazia e dentro dos limites do tabuleiro)." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="280" y="375" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="140" y="387.5" width="70" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-7" value="Jogo começa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-7" value="Jogo começa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="145" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="415.63" as="sourcePoint" />
-            <mxPoint x="280" y="416" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-14" target="KI8eAFuQ6pck6i7ZXcoC-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-1" target="KI8eAFuQ6pck6i7ZXcoC-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="175" y="414.36" as="sourcePoint" />
-            <mxPoint x="208.80999999999995" y="415.645" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-14" target="KI8eAFuQ6pck6i7ZXcoC-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-14" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-14" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="560" y="362.5" width="200" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-3" target="KI8eAFuQ6pck6i7ZXcoC-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="420" as="sourcePoint" />
-            <mxPoint x="610" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-18" value="O sistema atualiza o tabuleiro verifica se há um vencedor." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-18" value="&amp;nbsp;Sistema atualiza o tabuleiro e verifica se já há um vencedor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="595" y="403.75" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-19" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="362.5" as="sourcePoint" />
-            <mxPoint x="720" y="302.25" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="660" y="302.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-20" value="" style="endArrow=none;html=1;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="521.25" as="sourcePoint" />
-            <mxPoint x="660" y="467.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="660" y="521.25" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="720" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="720" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-24" value="Se haver um ganhador ou empate, o jogo termina" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="KI8eAFuQ6pck6i7ZXcoC-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-24" value="Se haver um ganhador ou empate, o jogo termina" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="720" y="278.75" width="115" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-25" value="Senão, o jogo continua" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-25" value="Caso contrário, o jogo continua" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="735" y="505" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="900" y="383.75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-28" value="O jogo é finalizado ou reiniciado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-28" value="O jogo é finalizado ou reiniciado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="917.5" y="398.75" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;verticalAlign=middle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="300" as="sourcePoint" />
-            <mxPoint x="960" y="383.75" as="targetPoint" />
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KI8eAFuQ6pck6i7ZXcoC-5" value="O usuário ou a IA faz sua jogada. O sistema verifica se a jogada é válida (se a posição está vazia e dentro dos limites do tabuleiro)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=0;fontFamily=Times New Roman;" parent="uxiNWbVX7eQsbTh9n5Dd-1" vertex="1">
+          <mxGeometry y="10" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="809.92" y="550" as="sourcePoint" />
+            <mxPoint x="389.99999999999994" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="960" y="300" />
+              <mxPoint x="780" y="570" />
+              <mxPoint x="390" y="570" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-5" target="KI8eAFuQ6pck6i7ZXcoC-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="415" />
+              <mxPoint x="510" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uxiNWbVX7eQsbTh9n5Dd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KI8eAFuQ6pck6i7ZXcoC-6" target="KI8eAFuQ6pck6i7ZXcoC-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
